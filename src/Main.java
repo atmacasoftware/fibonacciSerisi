@@ -16,7 +16,9 @@ public class Main {
 
         //Hatalı veri girilmesinin kontrolü
         if(elemanSayisi > 0){
-            for(int i=2; i < elemanSayisi; i++){
+            ucuncuElaman = birinciElaman + ikinciElaman;
+
+            for(int i=1; i <= elemanSayisi; i++){
                 ucuncuElaman = birinciElaman + ikinciElaman;
                 System.out.println(birinciElaman + " + " + ikinciElaman + " = " + ucuncuElaman);
                 birinciElaman = ikinciElaman;
